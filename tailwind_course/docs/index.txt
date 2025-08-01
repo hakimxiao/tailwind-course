@@ -1,0 +1,14 @@
+#_container : 
+    Container adalah element yang digunakan untuk membatasi lebar kontent agar tidak memenuhi seluruh lebar layar. 
+    Kelas container di tailwind CSS secara otomatis menyesuaikan lebar elemen berdasarkan breakpoint yanhg telah 
+    ditentukan. 
+    @_Fungsi : 
+        *   membuat layout yang rapi dan terpusat
+        *   menyesuaikan lebar elemen berdasarkan ukuran layar (responsife)
+        *   mencegah kontent meluas hingga tepi layar
+        @_Breakpoint : 
+            sm  : 640px
+            md  : 768px
+            lg  : 1024px
+            xl  : 1280px
+            2xl : 1536px

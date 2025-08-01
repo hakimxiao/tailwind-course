@@ -1,7 +1,8 @@
 function App() {
   return (
     <>
-      <h1 className="text-green-800 text-3xl font-bold">Hello World</h1>
+      {/* <Container /> */}
+      <div className="container mx-auto bg-slate-200 text-slate-900">HI</div>
     </>
   );
 }
