@@ -12,3 +12,11 @@
             lg  : 1024px
             xl  : 1280px
             2xl : 1536px
+
+#_typography :
+    Tailwind css menyediakan berbagai utility class yang muemudahkan kita mengatur font size, font weight, text alignment, line height
+    dan decoration.
+        *   Line Height : (Untuk Memberikan Jarak Atas Bawah Dari Text Atau
+            Leading penggunaannya setelah text-style/lineHeight (text-base/4))
+        *   Letter spacing : adalah jarak dari huruf ke huruf atau dari latter ke latter untuk class nya digunakan 
+            tracking.
