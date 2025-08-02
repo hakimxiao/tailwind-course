@@ -83,6 +83,18 @@ function App() {
         <div className="font-sans text-center">text-center</div>
         <div className="font-sans text-right">text-right</div>
         <div className="font-sans text-justify">text-justify</div>
+
+        {/* <Width Dan Height /> */}
+        <div className="bg-blue-300 w-32">WIDTH</div>
+        <div className="bg-blue-300 w-md">WIDTH MD</div>
+        <div className="bg-blue-300 min-w-md">min WIDTH</div>
+        <div className="bg-blue-300 max-w-md">max WIDTH</div>
+        <div className="bg-red-300 h-30 w-1/2">
+          WIDTH PERSENTASI 1/2 (setengah)
+          <div className="bg-blue-300 h-screen">
+            w/h-screen : Dia akan ambil selayar dimensinya
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -20,3 +20,15 @@
             Leading penggunaannya setelah text-style/lineHeight (text-base/4))
         *   Letter spacing : adalah jarak dari huruf ke huruf atau dari latter ke latter untuk class nya digunakan 
             tracking.
+
+#_width & height 
+    Lebar dan tinggi 
+        *   w-fit       : utility class dari Tailwind CSS untuk mengatur lebar (width) elemen menjadi "fit-content. 
+                          Artinya: elemen akan menyesuaikan lebar berdasarkan isi kontennya — tidak melebar melebihi isi, 
+                          dan tidak memaksa ke ukuran tertentu.
+        *   w-screen    : Utility untuk membuat dimensi dari sebuah element yang mereperensikan dimensinya sesuai dengan 
+                          layar device yang digunakan.
+        *   max-w       : Utility untuk setting maksimum dari sebuah element jadi dia tidak boleh lebih besar
+            min-w       : Utility untuk setting minimum dari sebuah element jadi dia tidak boleh lebih kecil
+        *   min-h       : Utility untuk setting minimum dari sebuah element jadi dia tidak boleh lebih kecil
+            max-h       : Utility untuk setting maksimum dari sebuah element jadi dia tidak boleh lebih besar
