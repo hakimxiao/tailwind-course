@@ -2,25 +2,27 @@ function App() {
   return (
     <div className="max-w-screen bg-slate-100">
       {/* <Container /> */}
-      <div className="container mx-auto bg-slate-700 text-slate-900 flex items-center justify-center text-3xl">
+      {/* <div className="container mx-auto bg-slate-700 text-slate-900 flex items-center justify-center text-3xl">
         CONTAINER
-      </div>
+      </div> */}
 
       <div className="mx-auto my-12 w-[50%]  text-2xl">
         {/* <Typography /> */}
-        <h4 className="text-blue-300 font-bold">Font Family :</h4>
+        {/* <h4 className="text-blue-300 font-bold">Font Family :</h4>
         <div className="font-sans">font sans</div>
         <div className="font-serif">font serif</div>
         <div className="font-mono">font mono</div>
-        <div className="font-tekinttel">font custom</div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Font Size :</h4>
+        <div className="font-tekinttel">font custom</div> */}
+
+        {/* <Font Size /> */}
+        {/* <h4 className="text-blue-300 font-bold">Font Size :</h4>
         <div className="font-sans text-xs">text xs</div>
         <div className="font-serif text-lg">text lg</div>
         <div className="font-tekinttel text-4xl">text 4xl</div>
-        <div className="font-tekinttel text-[12px]">text custom</div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Line Height</h4>
+        <div className="font-tekinttel text-[12px]">text custom</div> */}
+
+        {/* <Line Height /> */}
+        {/* <h4 className="text-blue-300 font-bold">Line Height</h4>
         <div className="text-base/3 text-justify">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi tenetur
           dolorum error illum! Quasi quidem cum perspiciatis quam iste aut eius,
@@ -54,38 +56,43 @@ function App() {
           quisquam quis officia quam consequuntur. Beatae fugiat nobis magni
           officiis rerum a possimus illum quae ab quibusdam. Aspernatur est quos
           debitis ab quia unde alias laudantium iusto tenetur, delectus eaqu
-        </div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Font Weight :</h4>
+        </div> */}
+
+        {/* <Font weight /> */}
+        {/* <h4 className="text-blue-300 font-bold">Font Weight :</h4>
         <div className="font-sans font-bold">font bold</div>
         <div className="font-serif font-extrabold">font extra bold</div>
-        <div className="font-mono font-light">font light</div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Font Style :</h4>
-        <div className="font-sans italic">italic</div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Text Decoration :</h4>
+        <div className="font-mono font-light">font light</div> */}
+
+        {/* <Font style /> */}
+        {/* <h4 className="text-blue-300 font-bold">Font Style :</h4>
+        <div className="font-sans italic">italic</div> */}
+
+        {/* Text Decoration */}
+        {/* <h4 className="text-blue-300 font-bold">Text Decoration :</h4>
         <div className="font-sans underline">underline</div>
         <div className="font-sans overline text-red-300 decoration-red-300">
           overline
         </div>
         <div className="font-sans line-through decoration-amber-500">
           Heline through
-        </div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Letter Spacing :</h4>
+        </div> */}
+
+        {/* <Letter spacing /> */}
+        {/* <h4 className="text-blue-300 font-bold">Letter Spacing :</h4>
         <div className="font-sans tracking-tighter">tracking-widest</div>
         <div className="font-sans tracking-wide">tracking-widest</div>
-        <div className="font-sans tracking-widest">tracking-widest</div>
-        {/* =================================================================================== */}
-        <h4 className="text-blue-300 font-bold">Text Align :</h4>
+        <div className="font-sans tracking-widest">tracking-widest</div> */}
+
+        {/* <Text align /> */}
+        {/* <h4 className="text-blue-300 font-bold">Text Align :</h4>
         <div className="font-sans text-left">text-left</div>
         <div className="font-sans text-center">text-center</div>
         <div className="font-sans text-right">text-right</div>
-        <div className="font-sans text-justify">text-justify</div>
+        <div className="font-sans text-justify">text-justify</div> */}
 
         {/* <Width Dan Height /> */}
-        <div className="bg-blue-300 w-32">WIDTH</div>
+        {/* <div className="bg-blue-300 w-32">WIDTH</div>
         <div className="bg-blue-300 w-md">WIDTH MD</div>
         <div className="bg-blue-300 min-w-md">min WIDTH</div>
         <div className="bg-blue-300 max-w-md">max WIDTH</div>
@@ -94,7 +101,37 @@ function App() {
           <div className="bg-blue-300 h-screen">
             w/h-screen : Dia akan ambil selayar dimensinya
           </div>
+        </div> */}
+
+        {/* Background */}
+        <div className="bg-blue-300/20">Background Color</div>
+        <div className="w-[500px] h-[500px] bg-[url(https://picsum.photos/seed/picsum/500)] m-3">
+          Background Image Url
         </div>
+        <div className="w-[220px] h-[220px] bg-[url(https://picsum.photos/seed/picsum/500)] bg-top m-3">
+          Background Image Url x position
+        </div>
+        <div className="w-[220px] h-[220px] bg-[url(https://picsum.photos/seed/picsum/500)] bg-center m-3">
+          Background Image Url x position
+        </div>
+        <div className="w-[220px] h-[220px] bg-[url(https://picsum.photos/seed/picsum/500)] bg-bottom-right m-3">
+          Background Image Url x position
+        </div>
+        <div className="w-[500px] h-[500px] bg-[url(https://picsum.photos/seed/picsum/500)] bg-cover m-3">
+          Background Size Cover
+        </div>
+        <div className="w-[500px] h-[500px] bg-[url(https://picsum.photos/seed/picsum/500)] bg-cover m-3">
+          Background Size Cover
+        </div>
+        <div className="w-[500px] h-[500px] bg-[url(https://picsum.photos/seed/picsum/200)] bg-contain m-3">
+          Background Size containt
+        </div>
+        <div className="w-[500px] h-[500px] bg-linear-70 from-lime-300 to-yellow-200 bg-contain m-3">
+          Background Gradient
+        </div>
+        <div className="size-18 rounded-full bg-radial from-pink-400 from-40% to-fuchsia-700"></div>
+        <div className="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%"></div>
+        <div className="size-18 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div>
       </div>
     </div>
   );
