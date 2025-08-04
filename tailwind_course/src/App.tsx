@@ -104,7 +104,7 @@ function App() {
         </div> */}
 
         {/* Background */}
-        <div className="bg-blue-300/20">Background Color</div>
+        {/* <div className="bg-blue-300/20">Background Color</div>
         <div className="w-[500px] h-[500px] bg-[url(https://picsum.photos/seed/picsum/500)] m-3">
           Background Image Url
         </div>
@@ -131,7 +131,68 @@ function App() {
         </div>
         <div className="size-18 rounded-full bg-radial from-pink-400 from-40% to-fuchsia-700"></div>
         <div className="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%"></div>
-        <div className="size-18 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div>
+        <div className="size-18 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div> */}
+
+        {/* <Pseudo Class /> */}
+        <div className=" flex items-center justify-center gap-5 my-5">
+          <button className="bg-amber-500 text-white px-4 py-2 rounded-md hover:bg-blue-500 duration-1000 transition-all">
+            Hover Me
+          </button>
+          <button className="bg-amber-500 text-white px-4 py-2 rounded-md active:bg-blue-500">
+            Active Me
+          </button>
+          <button className="bg-amber-500 text-white px-4 py-2 rounded-md focus:bg-blue-500">
+            Focus Me
+          </button>
+        </div>
+
+        {/* first */}
+        <ul className="my-5">
+          {/* jadi yang terkondisi hanya child pertama saja */}
+          <li className="first:bg-slate-800 text-white">item 1</li>
+          {/* odd : jika elemennya ganjil | even : jika elemennya genap => INI KHUSUS UNTUK CHILDREN */}
+          <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
+            item 2
+          </li>
+          <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
+            item 3
+          </li>
+          <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
+            item 4
+          </li>
+          <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
+            item 5
+          </li>
+        </ul>
+
+        {/* disabled: */}
+        <div className="flex items-center justify-center gap-5">
+          <button
+            disabled
+            className="disabled:cursor-not-allowed disabled:opacity-50 bg-red-500 rounded-lg text-white px-4 py-2"
+          >
+            DISABLE
+          </button>
+          <button className="disabled:cursor-not-allowed disabled:opacity-50 bg-red-500 rounded-lg text-white px-4 py-2">
+            DISABLE
+          </button>
+        </div>
+
+        {/* group: * Jika kita group maka dia akan menjadi satu kesatuan*/}
+        <div className="group my-5">
+          {/* jadi jika group nya di hover maka element terkait akan bereaksi */}
+          <h1 className="text-3xl group-hover:bg-amber-100 font-semibold text-black">
+            nama: Lorem ipsum dolor sit.
+          </h1>
+          <p className="text-sm font-light text-slate400">
+            lahir: Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+            recusandae assumenda esse voluptate corrupti repudiandae dignissimos
+            tempore laborum, perferendis dolorem?
+          </p>
+          <button className="text-white px-2 py-2 bg-green-500 cursor-pointer rounded-sm group-hover:animate-pulse">
+            Hover Me
+          </button>
+        </div>
       </div>
     </div>
   );

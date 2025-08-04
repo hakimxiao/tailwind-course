@@ -32,3 +32,6 @@
             min-w       : Utility untuk setting minimum dari sebuah element jadi dia tidak boleh lebih kecil
         *   min-h       : Utility untuk setting minimum dari sebuah element jadi dia tidak boleh lebih kecil
             max-h       : Utility untuk setting maksimum dari sebuah element jadi dia tidak boleh lebih besar
+
+#_Pseudo Class 
+    Digunakan untuk mengubah sebuah tampilan element berdasarkan kondisi tertentu, seperti hover, focus, first class dll.
