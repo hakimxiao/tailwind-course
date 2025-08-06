@@ -35,3 +35,10 @@
 
 #_Pseudo Class 
     Digunakan untuk mengubah sebuah tampilan element berdasarkan kondisi tertentu, seperti hover, focus, first class dll.
+
+#_Responsif Desain : Breakpoint & Media Queries
+    Breakpoint adalh titik batas ukuran layar dimana tata letak atau gaya elemen berubah agar sesuai dengan berbagai perangkat
+    (mobile, tablet, desktop). Media Queries adalah aturan CSS yang digunakan untuk menerapkan gaya berdasarkan ukuran layar.
+
+    Tailwind menyediakan sistem breakpoint berbasis mobile-first, yang berarti semua gaya default berlaku untuk layar kecil, dan 
+    kita dapat menimpa gaya tersebut untuk yang lebih besar menggunakan breakpoint classes.

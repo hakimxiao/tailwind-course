@@ -134,7 +134,7 @@ function App() {
         <div className="size-18 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div> */}
 
         {/* <Pseudo Class /> */}
-        <div className=" flex items-center justify-center gap-5 my-5">
+        {/* <div className=" flex items-center justify-center gap-5 my-5">
           <button className="bg-amber-500 text-white px-4 py-2 rounded-md hover:bg-blue-500 duration-1000 transition-all">
             Hover Me
           </button>
@@ -144,14 +144,14 @@ function App() {
           <button className="bg-amber-500 text-white px-4 py-2 rounded-md focus:bg-blue-500">
             Focus Me
           </button>
-        </div>
+        </div> */}
 
         {/* first */}
-        <ul className="my-5">
-          {/* jadi yang terkondisi hanya child pertama saja */}
-          <li className="first:bg-slate-800 text-white">item 1</li>
-          {/* odd : jika elemennya ganjil | even : jika elemennya genap => INI KHUSUS UNTUK CHILDREN */}
-          <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
+        {/* <ul className="my-5"> */}
+        {/* jadi yang terkondisi hanya child pertama saja */}
+        {/* <li className="first:bg-slate-800 text-white">item 1</li> */}
+        {/* odd : jika elemennya ganjil | even : jika elemennya genap => INI KHUSUS UNTUK CHILDREN */}
+        {/* <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
             item 2
           </li>
           <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
@@ -163,10 +163,10 @@ function App() {
           <li className="first:bg-slate-800 odd:text-purple-500 even:text-blue-500">
             item 5
           </li>
-        </ul>
+        </ul> */}
 
         {/* disabled: */}
-        <div className="flex items-center justify-center gap-5">
+        {/* <div className="flex items-center justify-center gap-5">
           <button
             disabled
             className="disabled:cursor-not-allowed disabled:opacity-50 bg-red-500 rounded-lg text-white px-4 py-2"
@@ -176,12 +176,12 @@ function App() {
           <button className="disabled:cursor-not-allowed disabled:opacity-50 bg-red-500 rounded-lg text-white px-4 py-2">
             DISABLE
           </button>
-        </div>
+        </div> */}
 
         {/* group: * Jika kita group maka dia akan menjadi satu kesatuan*/}
-        <div className="group my-5">
-          {/* jadi jika group nya di hover maka element terkait akan bereaksi */}
-          <h1 className="text-3xl group-hover:bg-amber-100 font-semibold text-black">
+        {/* <div className="group my-5"> */}
+        {/* jadi jika group nya di hover maka element terkait akan bereaksi */}
+        {/* <h1 className="text-3xl group-hover:bg-amber-100 font-semibold text-black">
             nama: Lorem ipsum dolor sit.
           </h1>
           <p className="text-sm font-light text-slate400">
@@ -192,6 +192,21 @@ function App() {
           <button className="text-white px-2 py-2 bg-green-500 cursor-pointer rounded-sm group-hover:animate-pulse">
             Hover Me
           </button>
+        </div> */}
+
+        {/* <RESPONSIVE DESAIN /> * INI BIASA DIGUNAKAN UNTUK SIZE DAN LAYOUTING */}
+        <div className="text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-3xl">
+          Responsive Desain
+        </div>
+        <div className="text-3xl font-bold sm:text-red-500 md:text-blue-500 lg:text-yellow-500 xl:text-green-500">
+          Responsive Desain
+        </div>
+        {/* responsive range, dia muncul di sm dan max-lg setelah itu hidden/ kembali ke style awal */}
+        <div className="hidden sm:max-lg:flex font-bold">Hello There</div>
+        {/* container queries responsive : Kita akan merefer ke container bukan ke layarnya */}
+        <div className="@container">
+          {/* maka dia akan responsive response ke container bukan layar */}
+          <div className="w-1/2 hidden @sm:@max-lg:flex">Hello There</div>
         </div>
       </div>
     </div>
