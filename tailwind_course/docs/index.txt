@@ -49,3 +49,11 @@
     Tailwind menyediakan utilitas untuk bekerja dengan kolom menggunakan properti CSS seperti columns, yang mendukung berbagai ukuran dan tata 
     letak kolom. Tidak direkomendasikan pada hal kompleks, disini kolumn direkomendasikan untuk hal mudah seperti majalah 
     dan untuk yang kompleks kita bisa flex / grid.
+
+#_FlexBox
+    FlexBox(Flexible Box Layout) adalah model tata letak yang dirancang untuk mengatur dan menyelaraskan elemen dalam satu dimensi, baik itu secara 
+    horizontal(baris) ataupun vertical(kolom). Flexbox sangat efektif untuk membuat tata letak yang fleksibel dan responsif,
+    terutama saat elemen memiliki ukuran dinamis atau tidak diketahui sebelumnya.
+
+    Flexbox mendukung berbagai properti untuk mengontrol distribusi ruang, penyelarasan, dan urutan elemen dalam suatu kontainer.
+    

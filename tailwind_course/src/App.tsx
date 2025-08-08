@@ -210,7 +210,7 @@ function App() {
         </div> */}
 
         {/* <Columns /> */}
-        <div className="columns-2 gap-10">
+        {/* <div className="columns-2 gap-10">
           <div>
             helo Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequatur fuga, quidem iure eius eaque quaerat, corporis vel
@@ -227,7 +227,55 @@ function App() {
             rem, blanditiis deserunt dolore, repellat vitae possimus! Alias
             saepe distinctio doloribus totam iste soluta?
           </div>
+        </div> */}
+
+        {/* ### <FLEXBOX /> */}
+        <h1 className="my-10">
+          HORIZONTAL (ROW) = BARIS | VERTICAL (COLUMN) = KOLOM
+        </h1>
+        <div className="flex flex-col-reverse w-1/2">
+          <div className="bg-red-500 text-white">content 1</div>
+          <div className="bg-blue-500 text-white">content 2</div>
+          <div className="bg-green-500 text-white">content 3</div>
         </div>
+      </div>
+      <div className="flex justify-center w-1/2 my-5">
+        {/* order properti untuk flex */}
+        <div className="bg-red-500 text-white order-3">content 1</div>
+        <div className="bg-blue-500 text-white order-1">content 2</div>
+        <div className="bg-green-500 text-white order-2">content 3</div>
+      </div>
+      <div className="flex justify-center w-1/2 my-5">
+        {/* semua dimensi akan di penuhi yang menggunakan grow akan mendominasi yang tidak di pakai */}
+        <div className="bg-red-500 text-white">content 1</div>
+        <div className="bg-blue-500 text-white grow">content 2</div>
+        <div className="bg-green-500 text-white">content 3</div>
+      </div>
+      <div className="flex justify-center my-5">
+        {/* shrink : adalah kondisi jika layar di kecilkan dimana jika shrink nya 0 maka dia akan mempertahankan dimensi aslinya  */}
+        <div className="bg-red-500 text-white w-[800px] h-[100px]">
+          content 1
+        </div>
+        <div className="bg-blue-500 text-white w-[800px] h-[100px] shrink-0">
+          content 2
+        </div>
+        <div className="bg-green-500 text-white w-[800px] h-[100px]">
+          content 3
+        </div>
+      </div>
+      <div className="flex justify-between items-center h-[600px] bg-slate-500">
+        {/* justify : Urutan || items : posisi element */}
+        <div className="bg-red-500 text-white h-[100px]">content 1</div>
+        <div className="bg-blue-500 text-white h-[100px]">content 2</div>
+        <div className="bg-green-500 text-white h-[100px]">content 3</div>
+      </div>
+      {/* FLEX WRAP : ADLAH KONDISI JIKA SEBUAH ELEMEN PENUH DAN KONDISI MEREKA BELUM TERPENUHI MAKA DIA AKAN DI PINDAHKAN DIBAWAH
+                      BUKAN MALAH MEMAKSA MUAT DENGAN CARA MEMBAGI RATA DIMENSI.
+      */}
+      <div className="flex flex-wrap flex-row h-[600px] bg-slate-100">
+        <div className="bg-red-500 text-white h-[100px] w-2/3">content 1</div>
+        <div className="bg-blue-500 text-white h-[100px] w-2/3">content 2</div>
+        <div className="bg-green-500 text-white h-[100px] w-1/3">content 3</div>
       </div>
     </div>
   );
