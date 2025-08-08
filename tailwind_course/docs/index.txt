@@ -42,3 +42,10 @@
 
     Tailwind menyediakan sistem breakpoint berbasis mobile-first, yang berarti semua gaya default berlaku untuk layar kecil, dan 
     kita dapat menimpa gaya tersebut untuk yang lebih besar menggunakan breakpoint classes.
+
+#_Columns 
+    Column adalah cara sederhana untuk membagu kontentdalam suatu elemen menjadi beberapa kolom. Biasanya digunakan untuk tata letak teks atau elemen yang mengalir seperti majalah.
+
+    Tailwind menyediakan utilitas untuk bekerja dengan kolom menggunakan properti CSS seperti columns, yang mendukung berbagai ukuran dan tata 
+    letak kolom. Tidak direkomendasikan pada hal kompleks, disini kolumn direkomendasikan untuk hal mudah seperti majalah 
+    dan untuk yang kompleks kita bisa flex / grid.

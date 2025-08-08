@@ -195,18 +195,38 @@ function App() {
         </div> */}
 
         {/* <RESPONSIVE DESAIN /> * INI BIASA DIGUNAKAN UNTUK SIZE DAN LAYOUTING */}
-        <div className="text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-3xl">
+        {/* <div className="text-sm font-bold sm:text-base md:text-lg lg:text-xl xl:text-3xl">
           Responsive Desain
         </div>
         <div className="text-3xl font-bold sm:text-red-500 md:text-blue-500 lg:text-yellow-500 xl:text-green-500">
           Responsive Desain
-        </div>
+        </div> */}
         {/* responsive range, dia muncul di sm dan max-lg setelah itu hidden/ kembali ke style awal */}
-        <div className="hidden sm:max-lg:flex font-bold">Hello There</div>
+        {/* <div className="hidden sm:max-lg:flex font-bold">Hello There</div> */}
         {/* container queries responsive : Kita akan merefer ke container bukan ke layarnya */}
-        <div className="@container">
-          {/* maka dia akan responsive response ke container bukan layar */}
-          <div className="w-1/2 hidden @sm:@max-lg:flex">Hello There</div>
+        {/* <div className="@container"> */}
+        {/* maka dia akan responsive response ke container bukan layar */}
+        {/* <div className="w-1/2 hidden @sm:@max-lg:flex">Hello There</div>
+        </div> */}
+
+        {/* <Columns /> */}
+        <div className="columns-2 gap-10">
+          <div>
+            helo Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consequatur fuga, quidem iure eius eaque quaerat, corporis vel
+            consequuntur facere, sit omnis sunt suscipit architecto cupiditate
+            cum! Voluptas, saepe quas totam animi laboriosam rem reiciendis
+            maiores, neque repellendus libero deleniti quaerat dolore, aut
+            commodi? Laudantium quod vel culpa excepturi dignissimos saepe.
+          </div>
+          <div>
+            hai Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur at neque tempora quod, cum harum perferendis hic magni
+            placeat, excepturi, ea quos itaque reiciendis rem distinctio? Est
+            quis, quo voluptates eaque placeat recusandae veniam numquam culpa
+            rem, blanditiis deserunt dolore, repellat vitae possimus! Alias
+            saepe distinctio doloribus totam iste soluta?
+          </div>
         </div>
       </div>
     </div>
