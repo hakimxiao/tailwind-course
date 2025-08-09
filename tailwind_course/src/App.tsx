@@ -230,7 +230,7 @@ function App() {
         </div> */}
 
         {/* ### <FLEXBOX /> */}
-        <h1 className="my-10">
+        {/* <h1 className="my-10">
           HORIZONTAL (ROW) = BARIS | VERTICAL (COLUMN) = KOLOM
         </h1>
         <div className="flex flex-col-reverse w-1/2">
@@ -239,21 +239,21 @@ function App() {
           <div className="bg-green-500 text-white">content 3</div>
         </div>
       </div>
-      <div className="flex justify-center w-1/2 my-5">
+      <div className="flex justify-center w-1/2 my-5"> */}
         {/* order properti untuk flex */}
-        <div className="bg-red-500 text-white order-3">content 1</div>
+        {/* <div className="bg-red-500 text-white order-3">content 1</div>
         <div className="bg-blue-500 text-white order-1">content 2</div>
         <div className="bg-green-500 text-white order-2">content 3</div>
       </div>
-      <div className="flex justify-center w-1/2 my-5">
+      <div className="flex justify-center w-1/2 my-5"> */}
         {/* semua dimensi akan di penuhi yang menggunakan grow akan mendominasi yang tidak di pakai */}
-        <div className="bg-red-500 text-white">content 1</div>
+        {/* <div className="bg-red-500 text-white">content 1</div>
         <div className="bg-blue-500 text-white grow">content 2</div>
         <div className="bg-green-500 text-white">content 3</div>
       </div>
-      <div className="flex justify-center my-5">
+      <div className="flex justify-center my-5"> */}
         {/* shrink : adalah kondisi jika layar di kecilkan dimana jika shrink nya 0 maka dia akan mempertahankan dimensi aslinya  */}
-        <div className="bg-red-500 text-white w-[800px] h-[100px]">
+        {/* <div className="bg-red-500 text-white w-[800px] h-[100px]">
           content 1
         </div>
         <div className="bg-blue-500 text-white w-[800px] h-[100px] shrink-0">
@@ -263,19 +263,57 @@ function App() {
           content 3
         </div>
       </div>
-      <div className="flex justify-between items-center h-[600px] bg-slate-500">
+      <div className="flex justify-between items-center h-[600px] bg-slate-500"> */}
         {/* justify : Urutan || items : posisi element */}
-        <div className="bg-red-500 text-white h-[100px]">content 1</div>
+        {/* <div className="bg-red-500 text-white h-[100px]">content 1</div>
         <div className="bg-blue-500 text-white h-[100px]">content 2</div>
         <div className="bg-green-500 text-white h-[100px]">content 3</div>
-      </div>
-      {/* FLEX WRAP : ADLAH KONDISI JIKA SEBUAH ELEMEN PENUH DAN KONDISI MEREKA BELUM TERPENUHI MAKA DIA AKAN DI PINDAHKAN DIBAWAH
+      </div> */}
+        {/* FLEX WRAP : ADLAH KONDISI JIKA SEBUAH ELEMEN PENUH DAN KONDISI MEREKA BELUM TERPENUHI MAKA DIA AKAN DI PINDAHKAN DIBAWAH
                       BUKAN MALAH MEMAKSA MUAT DENGAN CARA MEMBAGI RATA DIMENSI.
       */}
-      <div className="flex flex-wrap flex-row h-[600px] bg-slate-100">
+        {/* <div className="flex flex-wrap flex-row h-[600px] bg-slate-100">
         <div className="bg-red-500 text-white h-[100px] w-2/3">content 1</div>
         <div className="bg-blue-500 text-white h-[100px] w-2/3">content 2</div>
-        <div className="bg-green-500 text-white h-[100px] w-1/3">content 3</div>
+        <div className="bg-green-500 text-white h-[100px] w-1/3">content 3</div> */}
+
+        {/* <GRID /> */}
+        <div className="m-10 grid grid-cols-5 gap-4 grid-flow-dense">
+          {/* colspan = Membuat sebuah content dapat menempati lebih dari 1 kolom */}
+          <div className="bg-sky-500 text-white rounded-lg col-span-7">
+            content 1
+          </div>
+          <div className="bg-sky-500 text-white rounded-lg">content 2</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 3</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 4</div>
+          <div className="bg-sky-500 text-white rounded-lg col-span-2">
+            content 5
+          </div>
+          <div className="bg-sky-500 text-white rounded-lg">content 6</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 7</div>
+          <div className="bg-sky-500 text-white rounded-lg col-span-5">
+            content 8
+          </div>
+        </div>
+        {/* GRID ROW : MEMBUTUHKAN GRID FLOW AGAR BISA APPLAY ROW */}
+        {/* 
+          OUTFLOW : ADALAH KONDISI DIMANA GRID MENJADI FLEXIBLE DIMANA JIKA ADA SUATU TEMPAT KOLOM/ROW 
+                    YANG KOSONG DAN DAPAT DIISI MAKA DIA AKAN MEGISI TEMPAT TERSEBUT DAN MELAKUKKAN PENYESUAIAN.
+        */}
+        <div className="m-10 grid grid-flow-col grid-rows-3 gap-4">
+          <div className="bg-sky-500 text-white rounded-lg row-span-2">
+            content 1
+          </div>
+          <div className="bg-sky-500 text-white rounded-lg">content 2</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 3</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 4</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 5</div>
+          <div className="bg-sky-500 text-white rounded-lg">content 6</div>
+          <div className="bg-sky-500 text-white rounded-lg row-span-3">
+            content 7
+          </div>
+          <div className="bg-sky-500 text-white rounded-lg">content 8</div>
+        </div>
       </div>
     </div>
   );

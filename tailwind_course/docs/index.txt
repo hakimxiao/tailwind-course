@@ -56,4 +56,12 @@
     terutama saat elemen memiliki ukuran dinamis atau tidak diketahui sebelumnya.
 
     Flexbox mendukung berbagai properti untuk mengontrol distribusi ruang, penyelarasan, dan urutan elemen dalam suatu kontainer.
-    
+
+#_Grid 
+    Grid layout adalah sistem tata letak dua dimensi yang memungkinkan kita mengatur elemenen secara horizontal (baris) dan 
+    vertikal (colom). Grid memberikan kontrol penuh untuk membuat tata letak yang kompleks dan presisi tinggim seperti dashboard
+    galeri atau halaman multi-kolom.
+
+#_Transition
+    Digunakan untuk membuat perubahan antara dua kondisi elemen terjadi secara hakus dalam periode waktu tertentu. Transition memungkinkan 
+    animasi sederhana seperti perubahan warna, ukuran, posisi, atau transparasi tanpa perlu menggunakan animasi kompleks.
