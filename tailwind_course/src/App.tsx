@@ -278,9 +278,9 @@ function App() {
         <div className="bg-green-500 text-white h-[100px] w-1/3">content 3</div> */}
 
         {/* <GRID /> */}
-        <div className="m-10 grid grid-cols-5 gap-4 grid-flow-dense">
-          {/* colspan = Membuat sebuah content dapat menempati lebih dari 1 kolom */}
-          <div className="bg-sky-500 text-white rounded-lg col-span-7">
+        {/* <div className="m-10 grid grid-cols-5 gap-4 grid-flow-dense"> */}
+        {/* colspan = Membuat sebuah content dapat menempati lebih dari 1 kolom */}
+        {/* <div className="bg-sky-500 text-white rounded-lg col-span-7">
             content 1
           </div>
           <div className="bg-sky-500 text-white rounded-lg">content 2</div>
@@ -294,13 +294,13 @@ function App() {
           <div className="bg-sky-500 text-white rounded-lg col-span-5">
             content 8
           </div>
-        </div>
+        </div> */}
         {/* GRID ROW : MEMBUTUHKAN GRID FLOW AGAR BISA APPLAY ROW */}
         {/* 
           OUTFLOW : ADALAH KONDISI DIMANA GRID MENJADI FLEXIBLE DIMANA JIKA ADA SUATU TEMPAT KOLOM/ROW 
                     YANG KOSONG DAN DAPAT DIISI MAKA DIA AKAN MEGISI TEMPAT TERSEBUT DAN MELAKUKKAN PENYESUAIAN.
         */}
-        <div className="m-10 grid grid-flow-col grid-rows-3 gap-4">
+        {/* <div className="m-10 grid grid-flow-col grid-rows-3 gap-4">
           <div className="bg-sky-500 text-white rounded-lg row-span-2">
             content 1
           </div>
@@ -313,7 +313,12 @@ function App() {
             content 7
           </div>
           <div className="bg-sky-500 text-white rounded-lg">content 8</div>
-        </div>
+        </div> */}
+
+        {/* < TRANSITION /> */}
+        <button className="bg-violet-300 px-4 py-2 cursor-pointer border border-violet-700 text-slate-300 rounded-2xl hover:bg-violet-600 hover:border-b-violet-900 hover:text-white transition-all duration-700 ease-in-out delay-150">
+          HOVER ME
+        </button>
       </div>
     </div>
   );
