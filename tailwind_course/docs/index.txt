@@ -65,3 +65,7 @@
 #_Transition
     Digunakan untuk membuat perubahan antara dua kondisi elemen terjadi secara hakus dalam periode waktu tertentu. Transition memungkinkan 
     animasi sederhana seperti perubahan warna, ukuran, posisi, atau transparasi tanpa perlu menggunakan animasi kompleks.
+
+#_Transform
+    Properti yang digunakan untuk mengubah tampilan elemen secara geometris, seperti memindahkan, memutar, menskala, atau memriringkan 
+    elemen. Transform bekerja langsung pada elemen tanpa memengaruhi tata letak elemen lainnya.

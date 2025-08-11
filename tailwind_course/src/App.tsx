@@ -316,9 +316,25 @@ function App() {
         </div> */}
 
         {/* < TRANSITION /> */}
-        <button className="bg-violet-300 px-4 py-2 cursor-pointer border border-violet-700 text-slate-300 rounded-2xl hover:bg-violet-600 hover:border-b-violet-900 hover:text-white transition-all duration-700 ease-in-out delay-150">
+        {/* <button className="bg-violet-300 px-4 py-2 cursor-pointer border border-violet-700 text-slate-300 rounded-2xl hover:bg-violet-600 hover:border-b-violet-900 hover:text-white transition-all duration-700 ease-in-out delay-150">
           HOVER ME
+        </button> */}
+
+        {/* < TRANSFORM /> */}
+        <button className="bg-green-500 w-50 focus:translate-x-20 transition duration-500 ease-in-out m-8 px-4 py-2 rounded-lg">
+          translate
         </button>
+        <button className="bg-green-500 w-50 hover:skew-x-20 transition duration-500 ease-in-out m-8 px-4 py-2 rounded-lg">
+          skew
+        </button>
+        <button className="bg-green-500 w-50 focus:rotate-180 transition duration-500 ease-in-out m-8 px-4 py-2 rounded-lg">
+          rotate
+        </button>
+        <div>
+          <button className="bg-green-500 w-50 focus:translate-x-20 focus:rotate-180 focus:skew-x-20 transition duration-500 ease-in-out m-8 px-4 py-2 rounded-lg">
+            translate
+          </button>
+        </div>
       </div>
     </div>
   );
